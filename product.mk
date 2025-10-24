@@ -24,5 +24,8 @@ $(call inherit-product, vendor/extra/products/apps.mk)
 # Branding
 $(call inherit-product, vendor/extra/products/branding.mk)
 
+# Overlays
+$(call inherit-product, vendor/extra/products/overlays.mk)
+
 # Prebuilts
 $(call inherit-product, vendor/extra/products/prebuilts.mk)
