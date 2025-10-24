@@ -23,3 +23,6 @@ $(call inherit-product, vendor/extra/products/apps.mk)
 
 # Branding
 $(call inherit-product, vendor/extra/products/branding.mk)
+
+# Prebuilts
+$(call inherit-product, vendor/extra/products/prebuilts.mk)
