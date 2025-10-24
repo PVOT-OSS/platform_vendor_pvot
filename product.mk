@@ -20,3 +20,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Applications
 $(call inherit-product, vendor/extra/products/apps.mk)
+
+# Branding
+$(call inherit-product, vendor/extra/products/branding.mk)
