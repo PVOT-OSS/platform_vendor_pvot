@@ -17,3 +17,6 @@
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
     vendor/extra
+
+# Applications
+$(call inherit-product, vendor/extra/products/apps.mk)
