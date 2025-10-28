@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-PLATFORM_PVOT_VERSION := 26.0
+PLATFORM_PVOT_VERSION := 26.0.0
 PLATFORM_PVOT_VERSION_CODE := master
 PLATFORM_PVOT_FLAVOR := debug
 
