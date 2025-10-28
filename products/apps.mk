@@ -14,10 +14,4 @@
 # limitations under the License.
 #
 
-ifneq (,$(wildcard vendor/partner_pvot))
-    $(call inherit-product, vendor/partner_pvot/apps.mk)
-else
-    # Soong Namespace
-    PRODUCT_SOONG_NAMESPACES += \
-        vendor/extra/apps
-endif
+$(call inherit-product, vendor/partner_pvot/apps.mk)
