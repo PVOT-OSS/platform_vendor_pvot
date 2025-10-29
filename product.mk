@@ -29,3 +29,6 @@ $(call inherit-product, vendor/extra/products/overlays.mk)
 
 # Prebuilts
 $(call inherit-product, vendor/extra/products/prebuilts.mk)
+
+# Sepolicy
+$(call inherit-product, vendor/extra/sepolicy/pvot-sepolicy.mk)
