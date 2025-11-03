@@ -25,3 +25,7 @@ PRODUCT_PACKAGES += \
 # FireFox
 PRODUCT_PACKAGES += \
     FireFox
+
+# ThunderBird
+PRODUCT_PACKAGES += \
+    ThunderBird
