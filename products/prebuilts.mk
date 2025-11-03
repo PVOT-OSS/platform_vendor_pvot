@@ -22,6 +22,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     AuroraStore
 
-# Cromite
+# FireFox
 PRODUCT_PACKAGES += \
-    Cromite
+    FireFox
