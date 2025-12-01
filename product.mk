@@ -22,10 +22,13 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, vendor/extra/products/apps.mk)
 
 # Branding
-$(call inherit-product, vendor/extra/products/branding.mk)
+$(call inherit-product, vendor/extra/config/branding.mk)
 
 # Overlays
 $(call inherit-product, vendor/extra/products/overlays.mk)
 
 # Sepolicy
 $(call inherit-product, vendor/extra/sepolicy/pvot-sepolicy.mk)
+
+# Versioning
+$(call inherit-product, vendor/extra/config/versioning.mk)
