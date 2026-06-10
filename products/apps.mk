@@ -14,4 +14,8 @@
 # limitations under the License.
 #
 
+ifdef WITH_GMS
+$(call inherit-product, vendor/extra/products/gms.mk)
+else
 $(call inherit-product, vendor/partner_pvot/apps.mk)
+endif
